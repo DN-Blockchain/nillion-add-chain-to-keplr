@@ -1,8 +1,8 @@
 {
   "name": "add-chain-keplr-wallet-component",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +19,7 @@
     "keplr",
     "cosmos"
   ],
-  "author": "phongho01",
+  "author": "htphong01",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DN-Blockchain/nillion-add-chain-to-keplr/issues"
