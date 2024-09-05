@@ -78,4 +78,4 @@ const chainInfo = {
 | --------------- | -------- | ---------------------------------------------------------------------- |
 | chainInfo       | object   | Chain information.                  |
 | text      | string   | The text to display on the button.                                     |
-| style    | function | Custom style for button                               |
+| style    | object | Custom style for button                               |
