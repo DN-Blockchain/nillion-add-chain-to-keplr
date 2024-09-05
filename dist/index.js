@@ -30,13 +30,14 @@ var Button = function Button(_ref) {
     style = _ref$style === void 0 ? {} : _ref$style;
   var handleClick = function handleClick() {
     if (!chainInfo) {
-      throw Error("Chain info in required");
+      alert("Chain info in required");
+      return;
     }
     try {
       if (window.keplr) {
         window.keplr.experimentalSuggestChain(chainInfo);
       } else {
-        throw Error("Keplr wallet is not installed. Please install it to continue.");
+        alert("Keplr wallet is not installed. Please install it to continue.");
       }
     } catch (error) {
       throw error;

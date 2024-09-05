@@ -15,14 +15,15 @@ const defaultStyles = {
 const Button = ({ text, chainInfo, style = {} }) => {
   const handleClick = () => {
     if (!chainInfo) {
-      throw Error("Chain info in required");
+      alert("Chain info in required");
+      return;
     }
 
     try {
       if (window.keplr) {
         window.keplr.experimentalSuggestChain(chainInfo);
       } else {
-        throw Error("Keplr wallet is not installed. Please install it to continue.");
+        alert("Keplr wallet is not installed. Please install it to continue.");
       }
     } catch (error) {
       throw error;
