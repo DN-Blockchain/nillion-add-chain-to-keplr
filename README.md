@@ -69,7 +69,7 @@ const chainInfo = {
   features: [],
 };
 
-<AddChainKeplrWallet text={"Add NilChain to Keplr"} chainInfo={chainInfo} style={} />;
+<AddChainToKeplrButton text={"Add NilChain to Keplr"} chainInfo={chainInfo} style={} />;
 ```
 
 ### Props
