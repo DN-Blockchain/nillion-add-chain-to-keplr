@@ -5,13 +5,13 @@ This library provides a React component that allows users to add chain to Keplr 
 ### Installation
 
 ```
-npm install add-chain-keplr-wallet
+npm install add-chain-keplr-wallet-component
 ```
 
 ### Usage
 
 ```javascript
-import AddChainToKeplrButton from "add-chain-keplr-wallet";
+import AddChainToKeplrButton from "add-chain-keplr-wallet-component";
 
 const chainInfo = {
   rpc: "https://testnet-nillion-rpc.lavenderfive.com",
